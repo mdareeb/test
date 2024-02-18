@@ -1,0 +1,54 @@
+body{
+    background-color: gold;
+}
+.parent{
+    height: 150px;
+
+width: 100%;
+}
+nav{
+    z-index: 1;
+    background-color: gold;
+}
+
+.text >h1{
+    font-size: 50px;
+   text-shadow: 1px 1px 1px rgb(247, 244, 244);
+    color: rgb(8, 7, 7);
+    cursor: pointer;
+}
+.order-text{
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.section2 >span:hover{
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logo img{
+    filter: grayscale(1) brightness(0);
+}
+.image-sec{
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section3{
+    background-color: gold;
+    height: 1000px;
+    gap: 50px;
+    margin-top: 50px;
+}
+.card{
+    background-color: gold;
+    border: none;
+    height: max-content;
+}
